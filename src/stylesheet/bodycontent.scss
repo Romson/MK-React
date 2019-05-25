@@ -1,0 +1,76 @@
+// .container {
+//     background-image: $containerImageBg;
+//     -webkit-background-size: $imageCover;
+//     -moz-background-size: $imageCover;
+//     -o-background-size: $imageCover;
+//     background-size: $imageCover;
+//     height: 100vh;
+// }
+
+
+
+.pageBgColor {
+    background-image: $containerImageBg;
+    -webkit-background-size: $imageCover;
+    -moz-background-size: $imageCover;
+    -o-background-size: $imageCover;
+    background-size: $imageCover;
+    background-repeat: $noRepeat;
+    background-position: $backgroundPosition;
+    background-attachment: $posFixed;
+    width: $style100;
+    height: $height100vh;
+}
+
+.contentStyling {
+    height: $height100vh;
+    display: $displayFlex;
+    align-items: $alignItemsCenter;
+    justify-content: $justifyCenter;    
+}
+
+h1 {
+    color: $headerOne;
+    font-size: $headerOneSize;
+    text-shadow: $headerTextShadow;
+    transform: $headerTranslateY;
+    font-family: $headerFont;
+    text-transform: $uppercase;
+    padding-top: $padding40;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: $posFixed;
+    right: $margin;
+    bottom: $margin;
+    min-width: $style100; 
+    min-height: $style100;
+}
+  
+  /* Add some content at the bottom of the video/page */
+.content {
+    position: $posFixed;
+    bottom: $margin;
+    background: $contentBg;
+    color: $colorF1;
+    width: $style100;
+    padding: $padding20;
+}
+  
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: $width200px;
+    font-size: $font18px;
+    padding: $padding10;
+    border: $noBorder;
+    background: $colorBlack;
+    color: $colorWhite;
+    cursor: $cursorPointer;
+}
+  
+#myBtn:hover {
+    background: $colorTripled;
+    color: $colorBlack;
+}
